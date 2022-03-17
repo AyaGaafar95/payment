@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 5%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+img {
+  min-width: 20%;
+  max-height: 500px;
+}
+.paypal-button-container {
+  display: inline-block !important;
+  min-width: 500px !important;
+  max-width: 500px;
+  margin-top: 50% !important;
+}
