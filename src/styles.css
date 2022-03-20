@@ -8,8 +8,9 @@ body {
   justify-content: space-around;
 }
 img {
-  min-width: 20%;
-  max-height: 500px;
+  min-width: 10%;
+  display: block;
+  height: 400px;
 }
 .paypal-button-container {
   display: inline-block !important;
